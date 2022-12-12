@@ -1,0 +1,11 @@
+# syntax=docker/dockerfile:1
+FROM ubuntu:22.04
+
+EXPOSE 5050
+COPY bootstrap.py .
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install systemd -y
+RUN apt-get install sudo -y
+RUN apt install python3 python3-dev git curl -y
+RUN systemctl set-default multi-user.target
+RUN python3 bootstrap.py --admin admin:admin
