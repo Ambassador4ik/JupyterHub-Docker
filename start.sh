@@ -1,1 +1,6 @@
-docker run -it -p 80:8000 a9c898694ab002b7770801ff40a6f836a46cbf84d84abb1a21debaeed28a1e88
+docker run -it \
+    -p 80:8000 \
+    -e HUB_PATH=/home/admin \
+    -e NOTEBOOKS_FROM=/notebooks \
+    -v $PWD/notebooks:/home/admin \
+    fffbd58b2877504d06bb971832fef31d80ed7645022082496c895447d93ea5f9
