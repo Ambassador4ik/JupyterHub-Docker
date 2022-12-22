@@ -1,1 +1,7 @@
 .git
+.gitignore
+build.sh
+start.sh
+LICENSE
+README.md
+legacy
