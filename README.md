@@ -19,7 +19,7 @@ git clone https://github.com/Ambassador4ik/JupyterHub-Docker.git
 ```
 Go to scripts folder:
 ```sh
-cd /JupyterHub-Docker/scripts
+cd JupyterHub-Docker/scripts
 ```
 Finally, run quick setup script:
 ```sh
