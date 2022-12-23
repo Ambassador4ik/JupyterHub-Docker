@@ -3,5 +3,5 @@ docker run -it \
     -e HUB_PATH=/home/admin \
     -e NOTEBOOKS_FROM=/notebooks \
     -v $PWD/notebooks:/home/admin \
-    --name jpnb-docker
+    --name jpnb-docker \
     quick-jpnb-docker
