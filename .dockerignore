@@ -1,7 +1,7 @@
 .git
+legacy
+scripts
 .gitignore
-build.sh
-start.sh
 LICENSE
 README.md
-legacy
+REMARKS.md

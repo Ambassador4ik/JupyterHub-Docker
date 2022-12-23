@@ -1,3 +1,5 @@
+cd ..
+
 docker run -it \
     -p 80:8000 \
     -e HUB_PATH=/home/admin \
