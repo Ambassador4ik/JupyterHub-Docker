@@ -1,6 +1,6 @@
 FROM jupyterhub/jupyterhub
 
-ENV HUB_PATH=/home/admin
+ENV HUB_PATH=/home/admin/notebooks
 ENV NOTEBOOKS_FROM=/notebooks
 
 RUN apt-get update && apt-get upgrade -y
