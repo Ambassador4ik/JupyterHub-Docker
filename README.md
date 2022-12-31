@@ -19,6 +19,7 @@ git clone https://github.com/Ambassador4ik/JupyterHub-Docker.git
 
 ## Quick Start (Ubuntu only)
 Make sure that you are running Ubuntu 18.04 or higher. Quick start shell script only works on ubuntu.
+
 Go to scripts folder:
 ```sh
 cd /JupyterHub-Docker/scripts
