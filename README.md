@@ -13,7 +13,7 @@ This repository contains pre-set [Littlest JupyterHub](https://tljh.jupyter.org/
 ## Preparation
 Install Git:
 ```sh
-sudo apt-get update && apt-get install git -y
+sudo apt-get update && sudo apt-get install git -y
 ```
 Clone repo:
 ```sh
