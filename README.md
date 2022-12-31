@@ -7,6 +7,9 @@ This repository contains pre-set [Littlest JupyterHub](https://tljh.jupyter.org/
 - Instant & simple deployment
 - Jupyter Notebook import
 
+## Test server
+
+
 ## Preparation
 Install Git:
 ```sh
@@ -22,7 +25,7 @@ Make sure that you are running Ubuntu 18.04 or higher. Quick start shell script 
 
 Go to scripts folder:
 ```sh
-cd /JupyterHub-Docker/scripts
+cd JupyterHub-Docker/scripts
 ```
 Finally, run quick setup script:
 ```sh

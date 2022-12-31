@@ -11,4 +11,5 @@ RUN python3 -m pip install -r requirements.txt && rm requirements.txt
 # Creating first user and home directory for him
 RUN useradd -m -d /home/admin -s /bin/bash -p $(openssl passwd -1 admin) admin
 
+# Expose app port
 EXPOSE 8000
