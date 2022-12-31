@@ -29,7 +29,7 @@ cd JupyterHub-Docker/scripts
 ```
 Finally, run quick setup script:
 ```sh
-bash quick-start.sh
+sudo bash quick-start.sh
 ```
 
 
