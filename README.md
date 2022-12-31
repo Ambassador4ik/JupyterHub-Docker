@@ -8,7 +8,9 @@ This repository contains pre-set [Littlest JupyterHub](https://tljh.jupyter.org/
 - Jupyter Notebook import
 
 ## Test server
-
+Go to http://51.250.85.245/ to see JupyterHub-Docker in action.
+Adding a domain was too complicated as it only works with HTTPS
+If I find it out, the server will also be available at docker.ambassador4ik.dev
 
 ## Preparation
 Install Git:
