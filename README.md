@@ -33,7 +33,8 @@ bash quick-start.sh
 
 ## Manual Install (Any system)
 Make sure that you have installed docker. If not, go [here](https://docs.docker.com/get-docker/) and follow suggested steps for your system.
-Now that you have docker installed, you need to build the image. To do this, `cd` to `/JupyterHub-Docker` folder and run the following command:
+Now that you have docker installed, you need to build the image.
+To do this, `cd` to `/JupyterHub-Docker` folder and run the following command:
 ```sh
 docker build -t quick-jpnb-docker .
 ```
@@ -51,7 +52,8 @@ To edit notebooks import directory, replace `$PWD/notebooks` with your path.
 Also, make sure to replace `quick-jpnb-docker` with the name you created whem building image.
 
 ## Importing notebooks
-To import notebooks, you can simply put them into `/JupyterHub-Docker/notebooks` folder. See Development section for info on custom location usage.
+To import notebooks, you can simply put them into `/JupyterHub-Docker/notebooks` folder.
+See Manual Install section for info on custom location usage.
 
 ## Remarks
 The first thing I tried was creating an image from pure Ubuntu, which was not a huge success. You can see the results in `/legacy` folder. It kind of works, but only in single-user mode (`resque-target` on boot), which is not a good thing at all.
