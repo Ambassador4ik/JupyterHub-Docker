@@ -19,7 +19,7 @@ RUN rm -f /lib/systemd/system/systemd*udev* \
 
 VOLUME ["/sys/fs/cgroup", "/tmp", "/run"]
 
-#RUN useradd -p $(openssl passwd -1 24842570) ambassador4ik
+#RUN useradd -p $(openssl passwd -1 admin) ambassador4ik
 
 RUN sudo systemctl enable rescue.target --force
 RUN systemctl set-default -f rescue.target
