@@ -8,8 +8,7 @@ This repository contains pre-set [Littlest JupyterHub](https://tljh.jupyter.org/
 - Jupyter Notebook import
 
 ## Test server
-Go to http://51.250.85.245/ to see JupyterHub-Docker in action.
-If it is not online, then yandex cloud free credit is over.
+Go to http://79.137.202.188/ to see JupyterHub-Docker in action.
 
 Adding a domain was too complicated as it only works with HTTPS.
 
